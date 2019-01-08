@@ -1,0 +1,48 @@
+.email-content {
+    width: 80%;
+    height: 100%;
+    float: left;
+  }
+  
+  .email-info {
+    width: 20%;
+    height: 35%;
+    float: left;
+    margin-top: 3%;
+    color: grey;
+  }
+  
+  .sender {
+    height: 35%;
+    width: 100%;
+    margin-left: 7%;
+    font-weight: bold;
+    color: #03B9ED;
+    font-size: 120%;
+    margin-top: 3%;
+  }
+  
+  .message {
+    height: 50%;
+    margin-left: 7%;
+    color: grey;
+    font-weight: bold;
+  }
+  
+  @media only screen and (min-device-width: 1026px) {
+    .email {
+      width: 100% (-5px);
+      height: 11%;
+      border-bottom: lightgrey .02px solid;
+      cursor: pointer;
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+    .email {
+      width: 100% (-5px);
+      height: 8%;
+      border-bottom: lightgrey .02px solid;
+      cursor: pointer;
+    }
+  }

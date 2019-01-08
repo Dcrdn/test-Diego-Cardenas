@@ -1,0 +1,211 @@
+.searchButton {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .search {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  @media only screen and (min-device-width: 1026px) {
+    .inbox {
+      width: 40%;
+      height: 100%;
+      float: left;
+      overflow: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: white;
+      border-right: lightgrey .02px solid;
+    }
+    .header-inbox {
+      height: 8%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .inbox-message {
+      height: 100%;
+      width: 53%;
+      margin-left: 7%;
+      margin-top: 3.5%;
+      text-align: left;
+      float: left;
+    }
+    .inbox-text {
+      float: left;
+      width: 22%;
+      height: 100%;
+      font-size: 140%;
+      font-weight: bold;
+      color: black;
+    }
+    .inbox-total {
+      float: left;
+      width: 8%;
+      height: 35%;
+      background-color: red;
+      border-radius: 25px;
+      color: white;
+      font-size: 120%;
+      box-shadow: 0px 0px 21px -5px rgba(0, 0, 0, 0.75);
+      text-align: center;
+    }
+    .filter {
+      height: 100%;
+      width: 40%;
+      text-align: center;
+      float: left;
+      border-radius: 3px;
+      select {
+        margin-top: 5%;
+        padding: 4px 6px;
+        width: 40%;
+        color: grey;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .search-bar {
+      height: 8%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .search {
+      float: left;
+      width: 80%;
+      height: 60%;
+      border: 1px solid #00B4CC;
+      outline: none;
+      color: grey;
+      margin-top: -2%;
+    }
+    .searchButton {
+      width: 9%;
+      height: 66%;
+      border: 1px solid #00B4CC;
+      background: #00B4CC;
+      color: #fff;
+      cursor: pointer;
+      margin-top: 1.5%;
+    }
+    .search-space {
+      height: 100%;
+      width: 100%;
+      margin-left: 5.2%;
+    }
+    .emails {
+      height: 84%;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+    .inbox {
+      width: 40%;
+      height: 100%;
+      float: left;
+      overflow: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: white;
+      border-right: lightgrey .02px solid;
+    }
+    .header-inbox {
+      height: 5%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .inbox-message {
+      height: 100%;
+      width: 50%;
+      margin-left: 5.2%;
+      margin-top: 0%;
+      text-align: left;
+      float: left;
+    }
+    .inbox-text {
+      float: left;
+      width: 40%;
+      height: 100%;
+      font-size: 140%;
+      font-weight: bold;
+      color: black;
+      margin-top: 10%;
+    }
+    .inbox-total {
+      float: left;
+      width: 10%;
+      height: 35%;
+      background-color: red;
+      border-radius: 25px;
+      color: white;
+      font-size: 120%;
+      box-shadow: 0px 0px 21px -5px rgba(0, 0, 0, 0.75);
+      text-align: center;
+      margin-top: 10%;
+    }
+    .filter {
+      height: 100%;
+      width: 40%;
+      text-align: left;
+      text-align: center;
+      float: left;
+      border-radius: 3px;
+      select {
+        padding: 4px 6px;
+        width: 60%;
+        color: grey;
+        margin-top: 8%;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .search-bar {
+      height: 5%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .searchButton {
+      width: 12%;
+      height: 100%;
+      border: 1px solid #00B4CC;
+      background: #00B4CC;
+      color: #fff;
+      cursor: pointer;
+    }
+    .search {
+      float: left;
+      width: 80%;
+      height: 90%;
+      border: 1px solid #00B4CC;
+      outline: none;
+      color: grey;
+    }
+    .search-space {
+      height: 60%;
+      width: 85%;
+      margin-left: 5.2%;
+      margin-top: 4%;
+    }
+    .emails {
+      height: 84%;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    .header-inbox {
+      height: 7%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+  }

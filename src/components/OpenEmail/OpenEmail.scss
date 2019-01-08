@@ -1,0 +1,273 @@
+.openEmail {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .openEmail-body {
+    height: 92%;
+    float: left;
+    width: 100%;
+  }
+  
+  .text {
+    color: grey;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 0;
+  }
+  
+  .profile-picture {
+    float: left;
+    height: 100%;
+    width: 10%;
+    margin-left: 5.2%;
+  }
+  
+  .delete-button {
+    color: white;
+    border-radius: 2px;
+    width: 55%;
+    height: 52%;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: #DF3A01;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .spam-button {
+    color: grey;
+    border-radius: 2px;
+    width: 55%;
+    height: 52%;
+    margin-top: 10%;
+    background-color: #EEF4F9;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    cursor: pointer;
+  }
+  
+  .message-area {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    margin-left: 5.2%;
+    color: grey;
+    box-shadow: 0px 0px 34px -12px rgba(0, 0, 0, 0.75);
+  }
+  
+  .msg {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 130%;
+    color: grey;
+  }
+  
+  .file {
+    float: left;
+    width: 85%;
+    height: 100%;
+  }
+  
+  .reply {
+    float: left;
+    width: 15%;
+    height: 100%;
+  }
+  
+  .reply-button {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-color: #2E9AFE;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .attached {
+    cursor: pointer;
+    margin-left: 3%;
+  }
+  
+  @media only screen and (min-device-width: 1026px) {
+    .openEmail-header {
+      height: 8%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .delete, .spam {
+      float: left;
+      width: 15%;
+      height: 100%;
+    }
+    .mark-unread {
+      float: left;
+      width: 70%;
+      height: 100%;
+    }
+    .unread-button {
+      color: white;
+      border-radius: 2px;
+      width: 30%;
+      height: 50%;
+      margin-top: 2%;
+      margin-left: 60%;
+      background-color: #2E9AFE;
+      border: 0;
+      cursor: pointer;
+    }
+    .titulo {
+      height: 9%;
+      width: 100%;
+    }
+    .titulo-text {
+      width: 92%;
+      height: 90%;
+      margin-top: 10px;
+    }
+    .tags {
+      width: 100%;
+      height: 10%;
+    }
+    .tags-area {
+      background-color: white;
+      width: 90%;
+      height: 60%;
+      margin-left: 5.2%;
+      font-weight: bold;
+      box-shadow: 0px 0px 34px -12px rgba(0, 0, 0, 0.75);
+    }
+    .tags-field {
+      float: left;
+      height: 100%;
+      width: 10%;
+      font-size: 120%;
+      color: grey;
+      text-align: center;
+      margin-top: 1.5%;
+    }
+    .tags-props {
+      float: left;
+      height: 100%;
+      width: 90%;
+    }
+    .cuerpo-correo {
+      width: 100%;
+      height: 60%;
+    }
+    .reply-area {
+      width: 90%;
+      height: 6%;
+      margin-left: 5.2%;
+      background-color: #EEF4F9;
+      box-shadow: 0px 10px 34px -18px rgba(0, 0, 0, 0.75);
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+    .openEmail-header {
+      height: 5%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .delete, .spam {
+      float: left;
+      width: 20%;
+      height: 100%;
+    }
+    .mark-unread {
+      float: left;
+      width: 60%;
+      height: 100%;
+    }
+    .unread-button {
+      color: white;
+      border-radius: 2px;
+      width: 40%;
+      height: 55%;
+      margin-top: 3%;
+      margin-left: 40%;
+      background-color: #2E9AFE;
+      border: 0;
+      cursor: pointer;
+    }
+    .titulo {
+      height: 6%;
+      width: 100%;
+    }
+    .titulo-text {
+      width: 92%;
+      height: 90%;
+      margin-top: 10px;
+    }
+    .tags {
+      width: 100%;
+      height: 5%;
+    }
+    .tags-area {
+      background-color: white;
+      width: 90%;
+      height: 80%;
+      margin-left: 5.2%;
+      font-weight: bold;
+      box-shadow: 0px 0px 34px -12px rgba(0, 0, 0, 0.75);
+    }
+    .tags-field {
+      float: left;
+      height: 100%;
+      width: 15%;
+      font-size: 120%;
+      color: grey;
+      text-align: center;
+      margin-top: 1.5%;
+    }
+    .tags-props {
+      float: left;
+      height: 100%;
+      width: 80%;
+    }
+    .cuerpo-correo {
+      width: 100%;
+      height: 40%;
+    }
+    .reply-area {
+      width: 90%;
+      height: 4%;
+      margin-left: 5.2%;
+      background-color: #EEF4F9;
+      box-shadow: 0px 10px 34px -18px rgba(0, 0, 0, 0.75);
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: landscape) {
+    .openEmail-header {
+      height: 7%;
+      width: 100%;
+      border-bottom: lightgrey .02px solid;
+    }
+    .titulo {
+      height: 8%;
+      width: 100%;
+    }
+    .tags-field {
+      float: left;
+      height: 100%;
+      width: 10%;
+      font-size: 120%;
+      color: grey;
+      text-align: center;
+      margin-top: 1%;
+    }
+    .unread-button {
+      color: white;
+      border-radius: 2px;
+      width: 40%;
+      height: 55%;
+      margin-top: 3%;
+      margin-left: 50%;
+      background-color: #2E9AFE;
+      border: 0;
+      cursor: pointer;
+    }
+  }
